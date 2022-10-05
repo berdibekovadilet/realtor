@@ -1,3 +1,14 @@
+
+# Realtor - Real Estate App using Next JS
+
+# Live https://realtor-sable.vercel.app/
+
+
+![Screen Banner](cover/1.png)
+![Screen Banner](cover/2.png)
+![Screen Banner](cover/3.png)
+![Screen Banner](cover/4.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
