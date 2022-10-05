@@ -5,9 +5,9 @@ import { Flex, Box, Text, Icon } from "@chakra-ui/react";
 import { BsFilter } from "react-icons/bs";
 
 import Property from "../components/Property";
-// import SearchFilters from "../components/SearchFilters";
+import SearchFilters from "../components/SearchFilters";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
-// import noresult from "../assets/images/noresult.svg";
+import noresult from "../assets/images/noresult.svg";
 
 const Search = ({ properties }) => {
   const [searchFilters, setSearchFilters] = useState(false);
@@ -30,7 +30,7 @@ const Search = ({ properties }) => {
         <Text>Search Property By Filters</Text>
         <Icon paddingLeft="2" w="7" as={BsFilter} />
       </Flex>
-      {/* {searchFilters && <SearchFilters />} */}
+      {searchFilters && <SearchFilters />}
       <Text fontSize="2xl" p="4" fontWeight="bold">
         Properties {router.query.purpose}
       </Text>
@@ -47,7 +47,7 @@ const Search = ({ properties }) => {
           marginTop="5"
           marginBottom="5"
         >
-          {/* <Image src={noresult} /> */}
+          <Image src={noresult} alt="noresult" />
           <Text fontSize="xl" marginTop="3">
             No Result Found.
           </Text>
